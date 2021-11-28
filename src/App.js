@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <a href="intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end">Open Settings</a>
+		<p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
